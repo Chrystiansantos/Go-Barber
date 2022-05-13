@@ -1,0 +1,8 @@
+{{!--  Basicamente o layout que sera utilizado em todo o envio de email --}}
+<div
+  style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 1.6; color: #222; max-width: 600px;">
+  {{!-- body e o component que estou passando onde chamo o metodo para disparar o envio --}}
+  {{{body}}}
+  {{!-- Dessa forma consigo importar o footer dentro desse arquivo --}}
+  {{>footer}}
+</div>
